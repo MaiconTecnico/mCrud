@@ -1,0 +1,50 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'mCrud - Clientes'
+  ClientHeight = 523
+  ClientWidth = 899
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIForm
+  Menu = MMPrincipal
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pButton: TPanel
+    Left = 0
+    Top = 496
+    Width = 899
+    Height = 27
+    Align = alBottom
+    TabOrder = 0
+    object LName: TLabel
+      AlignWithMargins = True
+      Left = 743
+      Top = 7
+      Width = 152
+      Height = 16
+      Margins.Top = 6
+      Align = alRight
+      Caption = 'designed Maicon Oliveira - 2022'
+      ExplicitLeft = 793
+      ExplicitHeight = 13
+    end
+  end
+  object MMPrincipal: TMainMenu
+    Left = 16
+    Top = 16
+    object MNCadastro: TMenuItem
+      Caption = 'Cadastro'
+      object MNClientes: TMenuItem
+        Caption = 'Clientes'
+        OnClick = MNClientesClick
+      end
+    end
+  end
+end

@@ -1,0 +1,30 @@
+unit mCrud.model.entity.telefone;
+
+interface
+
+uses
+  SimpleAttributes;
+
+type
+  [Tabela('TELEFONE')]
+  TTelefone = class
+  private
+    FTelefone: String;
+    FTipo: String;
+    FContato: String;
+    FIdCliente: Integer;
+    FId: Integer;
+    FIndPrincipal: String;
+  public
+    [Campo('ID'), PK, AutoInc]
+    property Id : Integer read FId write SetId;
+    [Campo('ID_CLIENTE'), FK, NotNull]
+    property IdCliente : Integer read FIdCliente write SetIdCliente;
+
+    [Campo('NOME')]
+    property Nome : String read FNome write SetNome;
+  end;
+
+implementation
+
+end.

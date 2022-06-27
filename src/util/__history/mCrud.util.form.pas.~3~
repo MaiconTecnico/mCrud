@@ -1,0 +1,27 @@
+unit mCrud.util.form;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, cxClasses, cxPropertiesStore, ACBrBase, ACBrEnterTab, System.ImageList, Vcl.ImgList;
+
+type
+  TFrmBase = class(TForm)
+    ACBrEnterTab: TACBrEnterTab;
+    PSFormBase: TcxPropertiesStore;
+    ILFormBase: TImageList;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmBase: TFrmBase;
+
+implementation
+
+{$R *.dfm}
+
+end.

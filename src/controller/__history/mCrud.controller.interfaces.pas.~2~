@@ -1,0 +1,14 @@
+unit mCrud.controller.interfaces;
+
+interface
+
+type
+  iController = interface
+    function Cliente : iClienteDTO;
+    function Endereco : iEnderecoDTO;
+    function Telefone : iEnderecoDTO;
+  end;
+
+implementation
+
+end.

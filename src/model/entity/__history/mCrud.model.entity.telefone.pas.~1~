@@ -1,0 +1,7 @@
+unit mCrud.model.entity.telefone;
+
+interface
+
+implementation
+
+end.

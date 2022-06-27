@@ -1,0 +1,100 @@
+unit mCrud.controller.dto.telefone;
+
+interface
+
+uses
+  mCrud.model.entity.telefone,
+  mCrud.controller.dto.interfaces,
+  mCrud.services.generic;
+
+type
+  TEnderecoDTO = class(TInterfacedObject, iTelefoneDTO)
+    private
+      FEntity : TTelefone;
+      FService : iService<TTelefone>;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iEnderecoDTO;
+      function IdCliente(Value : Integer) : iTelefoneDTO; overload;
+      function IdCliente : Integer; overload;
+      function Telefone(Value : String) : iTelefoneDTO; overload;
+      function Telefone : String; overload;
+      function Tipo(Value : String) : iTelefoneDTO; overload;
+      function Tipo : String; overload;
+      function IndPrincipal(Value : String) : iTelefoneDTO; overload;
+      function IndPrincipal : String; overload;
+      function Build : iService<TTelefone>;
+  end;
+
+implementation
+
+{ TEnderecoDTO }
+
+function TEnderecoDTO.Build: iService<TTelefone>;
+begin
+  Result := FService;
+end;
+
+constructor TEnderecoDTO.Create;
+begin
+  FEntity := TTelefone.Create;
+  FService := TService<TTelefone>.New(FEntity);
+end;
+
+destructor TEnderecoDTO.Destroy;
+begin
+  FEntity.Free;
+  inherited;
+end;
+
+function TEnderecoDTO.IdCliente: Integer;
+begin
+
+end;
+
+function TEnderecoDTO.IdCliente(Value: Integer): iTelefoneDTO;
+begin
+  Result := Self;
+  FEntity.IdCliente := Value;
+end;
+
+function TEnderecoDTO.IndPrincipal: String;
+begin
+
+end;
+
+function TEnderecoDTO.IndPrincipal(Value: String): iTelefoneDTO;
+begin
+  Result := Self;
+  FEntity.IndPrincipal := Value;
+end;
+
+class function TEnderecoDTO.New: iEnderecoDTO;
+begin
+
+end;
+
+function TEnderecoDTO.Telefone: String;
+begin
+
+end;
+
+function TEnderecoDTO.Telefone(Value: String): iTelefoneDTO;
+begin
+  Result := Self;
+  FEntity.Telefone := Value;
+end;
+
+function TEnderecoDTO.Tipo(Value: String): iTelefoneDTO;
+begin
+  Result := Self;
+  FEntity.Tipo := Value;
+end;
+
+function TEnderecoDTO.Tipo: String;
+begin
+
+end;
+
+end.

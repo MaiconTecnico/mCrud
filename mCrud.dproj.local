@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/30 21:50:25.000.670,=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/03/30 22:08:25.000.756,=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/05/19 16:58:20.000.024,=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/26 15:15:23.773,=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/26 15:20:13.637,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.principal.pas=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/26 15:20:13.637,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.principal.dfm=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2022/06/26 15:20:22.570,E:\Maicon\Projetos\CRUD\mCrud.dproj=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2022/06/26 15:21:37.749,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:21:58.731,E:\Maicon\Projetos\CRUD\src\util\mCrud.util.form.dfm=E:\Maicon\Projetos\CRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/06/26 15:21:58.731,E:\Maicon\Projetos\CRUD\src\util\mCrud.util.form.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:25:18.484,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:27:24.106,E:\Maicon\Projetos\CRUD\src\resources\mCrud.resources.interfaces.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:28:01.249,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:28:46.434,E:\Maicon\Projetos\CRUD\src\resources\mCrud.resources.conexao.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:39:36.437,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:40:15.050,E:\Maicon\Projetos\CRUD\src\controller\mCrud.controller.interfaces.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:42:18.781,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:43:01.108,E:\Maicon\Projetos\CRUD\src\dto\mCrud.controller.dto.cliente.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:45:36.312,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:46:15.104,E:\Maicon\Projetos\CRUD\src\dto\mCrud.controller.dto.interfaces.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:57:06.156,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:57:57.980,E:\Maicon\Projetos\CRUD\src\services\mCrud.services.generic.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 15:59:11.424,=E:\Maicon\Projetos\CRUD\src\resources\mCrud.resources.interfaces.pas</Transaction>
+    <Transaction>2022/06/26 15:59:16.765,=E:\Maicon\Projetos\CRUD\src\resources\mCrud.resources.conexao.pas</Transaction>
+    <Transaction>2022/06/26 15:59:22.275,=E:\Maicon\Projetos\CRUD\src\controller\mCrud.controller.interfaces.pas</Transaction>
+    <Transaction>2022/06/26 15:59:32.736,=E:\Maicon\Projetos\CRUD\src\dto\mCrud.controller.dto.cliente.pas</Transaction>
+    <Transaction>2022/06/26 16:02:21.672,=E:\Maicon\Projetos\CRUD\src\dto\mCrud.controller.dto.interfaces.pas</Transaction>
+    <Transaction>2022/06/26 16:02:24.953,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 16:03:32.317,E:\Maicon\Projetos\CRUD\src\model\entity\mCrud.model.entity.cliente.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 16:09:13.039,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 16:09:41.763,E:\Maicon\Projetos\CRUD\src\controller\mCrud.Controller.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 16:18:14.280,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 16:19:03.998,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.clientes.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 16:19:03.998,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.clientes.dfm=E:\Maicon\Projetos\CRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/06/26 18:52:57.626,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 18:53:24.544,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.consultaclientes.dfm=E:\Maicon\Projetos\CRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/06/26 18:53:24.544,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.consultaclientes.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 19:42:40.017,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 19:43:52.248,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.cadastroclientes.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 19:43:52.248,E:\Maicon\Projetos\CRUD\src\view\mCrud.view.cadastroclientes.dfm=E:\Maicon\Projetos\CRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/06/26 20:07:20.495,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 20:07:52.136,E:\Maicon\Projetos\CRUD\src\model\entity\mCrud.model.entity.endereco.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 20:10:34.609,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 20:11:03.883,E:\Maicon\Projetos\CRUD\src\dto\mCrud.controller.dto.endereco.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 22:06:43.979,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 22:07:06.878,E:\Maicon\Projetos\CRUD\src\model\entity\mCrud.model.entity.telefone.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 22:11:07.851,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 22:11:30.498,E:\Maicon\Projetos\CRUD\src\dto\mCrud.controller.dto.telefone.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 23:41:19.757,=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/06/26 23:41:48.671,E:\Maicon\Projetos\CRUD\src\services\mCrud.services.fastreports.dfm=E:\Maicon\Projetos\CRUD\Unit1.dfm</Transaction>
+    <Transaction>2022/06/26 23:41:48.671,E:\Maicon\Projetos\CRUD\src\services\mCrud.services.fastreports.pas=E:\Maicon\Projetos\CRUD\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

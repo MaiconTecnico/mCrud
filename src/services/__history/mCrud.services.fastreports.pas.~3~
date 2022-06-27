@@ -1,0 +1,32 @@
+unit mCrud.services.fastreports;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, frxDesgn, frxExportXLSX, frxExportXLS, frxExportCSV, frxClass, frxExportPDF, frxDBSet;
+
+type
+  TDMFastReports = class(TDataModule)
+    frxReport1: TfrxReport;
+    frxDBDataset1: TfrxDBDataset;
+    frxPDFExport1: TfrxPDFExport;
+    frxCSVExport1: TfrxCSVExport;
+    frxXLSExport1: TfrxXLSExport;
+    frxXLSXExport1: TfrxXLSXExport;
+    frxDesigner1: TfrxDesigner;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DMFastReports: TDMFastReports;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.
