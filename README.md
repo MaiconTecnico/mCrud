@@ -1,7 +1,11 @@
 # mCrud -- Maicon Crud
   Crud Desenvolvido em "DELPHI"
+  
+  
   Usado o SimpleORM e o BOSS.
-  Projeto orientado em interface, usado generic's, firedac, 
+  
+  Projeto orientado em interface, usado generic's e firedac.
+  
   Para o relatorio, usado o fastreport.
   
   
